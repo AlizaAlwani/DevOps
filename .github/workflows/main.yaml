@@ -16,5 +16,5 @@ jobs:
                 aws-region: us-central-1
             
             - name: Deploy to S3
-              run: aws s3 sync . s3://aliza-shu-finalexam
+              run: aws s3 sync . s3://myownbucket07-shu
 
